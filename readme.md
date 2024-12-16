@@ -43,8 +43,8 @@
 
 If you just want to test the project without setting up a new database, the project is preconfigured to use the following test and development database URLs:
 
-- **Test Database URL:** `mongodb+srv://user:user@cluster0.8byaj.mongodb.net/testdb?retryWrites=true&w=majority&appName=Cluster0`
-- **Development Database URL:** `mongodb+srv://user:user@cluster0.8byaj.mongodb.net/todo?retryWrites=true&w=majority&appName=Cluster0&authSource=admin`
+- **Test Database URL:** `mongodb+srv://user:<db_password>@cluster0.8qaam.mongodb.net/testdb?retryWrites=true&w=majority&appName=Cluster0&authSource=admin`
+- **Development Database URL:** 'mongodb+srv://user:user@cluster0.8qaam.mongodb.net/todo?retryWrites=true&w=majority&appName=Cluster0&authSource=admin`
 
 ### To Use Preconfigured Database
 1. Simply run the project as outlined above without changing the database settings.
